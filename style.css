@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.featured-post {
+    width: 65%;
+}
+
+.featured-post img {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+}
+
+.blog-posts ul {
+    list-style-type: none;
+}
+
+.blog-posts ul li {
+    margin-bottom: 15px;
+}
+
+.blog-posts ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+
+.blog-posts ul li a:hover {
+    color: #007BFF;
+}
+
+aside {
+    width: 30%;
+}
+
+.categories, .recent-posts {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+.categories ul, .recent-posts ul {
+    list-style-type: none;
+}
+
+.categories ul li, .recent-posts ul li {
+    margin-bottom: 10px;
+}
+
+.categories ul li a, .recent-posts ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer .social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+footer .social-links a:hover {
+    color: #007BFF;
+}
