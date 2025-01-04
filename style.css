@@ -15,7 +15,8 @@ body {
 }
 
 header {
-    background-color: #333;
+ /* previous color code #333 */
+    background-color: #800000;
     color: white;
     padding: 20px 0;
     text-align: center;
